@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>The Virtual Poem Gallery</h1>
+        <p>An interatice poem sandbox.</p>
+    </header>
+
+    <div id="wall-west">
+        <h2>West Wall</h2>
+        <article id="so-fly">
+            <h3>Why You So Fly</h3>
+            <p>
+                "You know it's leather when we ride wood grain and raw hide,<br>
+                Doing what we do, watching screens getting high<br>
+                Girl, you keep it so fly with your sweet honeybuns<br>
+                You was there when the money gone<br>
+                You'll be there when the money comes" - Suga Suga 
+            </p>
+        </article>
+
+        <article id="return-of-me">
+            <h3>Return of the Mack</h3>
+            <p>
+                "Well, I tried to tell you so, Yes I did<br>
+                But I guess you didn't know<br>
+                As the saddest story goes<br>
+                Baby, now I got the flow<br>
+                'Cause I knew it from the start<br>
+                Baby, when you broke my heart<br>
+                That I had to come again<br>
+                And show you that I'd win" - Return of the Mack
+            </p>
+        </article>
+    </div>
+    <div id="wall-east">
+        <h2>East Wall</h2>
+        <article id="gold">
+            <h3>Nothing Gold Can Stay</h3>
+            <p>
+                "Natures first green is gold,<br>
+                Her hardest hue to hold.<br>
+                Her early leafs a flower;<br>
+                But only so an hour.<br>
+                Then leaf subsides to leaf.<br>
+                So Eden sank to grief,<br>
+                So dawn goes down to day.<br>
+                Nothing gold can stay." - Robert
+            </p>
+        </article>
+
+        <article id="family-values"> 
+            <h3>Proud Family</h3>
+            <p>
+                "You and me will always be tight.<br>
+                Family every single day and night,<br>
+                Even when you start acting like a fool.<br>
+                You know I'm loving every single thing you do,<br>
+                I know that I can always be myself,<br>
+                Around you more than anybody else,<br>
+                Everyday as I'm heading off to school,<br>
+                You know there's no one I love as much as you" - Proud
+            </p>
+        </article>
+    </div>
+
+    <section>
+        <h2>Submit New Exhibition Poem</h2>
+        <div>
+            <label for="poem-title">Poem Title</label>
+            <input type="text" id="poem-title" placeholder="Type Title">
+        </div>
+
+        <div>
+            <label for="entry">Entry</label>
+            <textarea id="entry" placeholder="Type or paste poem here..."></textarea>
+        </div>
+
+        <div>
+            <label for="bg-color">Background Color</label>
+            <input type="bg-color" id="color-input" value="">
+        </div>
+
+        <div>
+            <label for="wall-selection">House Selection</label>
+            <select id="wall-selection">
+                <option value="west-wall">West Wall</option>
+                <option value="east-wall">East Wall</option>
+            </select>
+        </div>
+
+        <button type="button" id="btn-add-poem">Submit to Gallery</button>
+    </section>
+</body>
+</html>
