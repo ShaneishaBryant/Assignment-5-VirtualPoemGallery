@@ -4,6 +4,17 @@ I used distinct id attributes to uniquely identify the <div> elements representi
 
 
 
+
+
 What was the difference between what getElementById returned and what your group selection method returned?
 
 With the getElementById it returned a single element, whereas the group selection returned a collection of elements in a node list. 
+
+
+
+
+
+
+When you moved the item, did you have to manually “delete” it from the first wall? Explain what happened to the node in the DOM tree when you called the movement method.
+
+No, I did not have to manually delete the poem from the first wall. When the movement method was called the poem was automatically detached from its original parent node and put in its new position on the East Wall. 
